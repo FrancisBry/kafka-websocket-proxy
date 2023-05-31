@@ -1,0 +1,26 @@
+{
+  "name": "kafka-websocket-proxy-server",
+  "version": "1.0.0",
+  "description": "A simple kafka websocket proxy server",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancisBry/kafka-websocket-proxy.git"
+  },
+  "keywords": [
+    "kafka",
+    "websocket",
+    "proxy",
+    "server"
+  ],
+  "author": "Francis Bryson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancisBry/kafka-websocket-proxy/issues"
+  },
+  "homepage": "https://github.com/FrancisBry/kafka-websocket-proxy#readme",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "ws": "^8.13.0"
+  }
+}
